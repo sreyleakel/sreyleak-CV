@@ -220,14 +220,16 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     width: 31%;
-   
-    box-sizing: border-box;
+    
+    
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .card-1{
     background: url(../images/edu1.jpg);
     background-repeat:no-repeat ;
     background-size:cover;
+    
+    
 }
 .card-2{
     background: url(../images/edu2.jpg);
@@ -342,8 +344,8 @@ button{
        
     }
     .image{
-        width:85%;
-        height: 100vh;
+        width:90%;
+        height: 50vh;
     }
     .footer{
         flex-wrap: wrap;
@@ -361,12 +363,12 @@ button{
         flex-wrap: wrap;
         
     }
-    .content-text{
-        width: 100%;
-    }
+    .content-text,
     .content-image{
+        margin: auto;
         width: 100%;
     }
+    
     .content1,
     .content4{
         flex-wrap: wrap-reverse;
@@ -417,9 +419,16 @@ button{
 
 @media(max-width:480px){
     .navbar{
-        display: flex;
+        
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+        width: 20%;
+        margin:0 auto;
+        align-items: center;
+        
+        
+        
     }
     .copy-right{
         width: 100%;
@@ -440,11 +449,11 @@ button{
         margin-top: 50px;
     }
     .profile{
-        width: 80%;
+        width: 90%;
     }
     .image{
         width: 90%;
-        height: 70vh;
+        height: 50vh;
     }
     /* edu */
     .card{
@@ -456,11 +465,33 @@ button{
         margin-left: 8%;
     }
     /* contact */
+    .nav-link{
+        font-size: 2rem;
+        
+       
+    }
+    
+    
+    .container{
+        width: 90%;
+    }
+    .form-content{
+        width: 100%;
+    }
     .side,
     .text{
         font-size: 1rem;
+        width: 100%;
+        margin: 5px;
+        
+    }
+    .form{
+        margin: 5px;
+        width: 100%;
     }
     .form-control{
+        width: 100%;
         padding: 10px;
     }
+
 }
